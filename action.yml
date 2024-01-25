@@ -1,4 +1,4 @@
-name: "Podcast-Generator"
+name: "Y2RE"
 author: "Paul-Sebastian"
 description: "Generates Podcast feeds from a YAML file"
 runs:
