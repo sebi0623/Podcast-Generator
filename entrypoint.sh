@@ -11,5 +11,4 @@ git add -A && git commit -m "Update Feed"
 
 git push --set-up-stream origin main
 
-
 echo "=================="
