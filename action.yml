@@ -1,0 +1,18 @@
+name: "Podcast-Generator"
+author: "Paul-Sebastian"
+description: "Generates Podcast feeds from a YAML file"
+run:
+  using: "docker"
+  image: "Dockerfile"
+branding:
+  icon: "archive"
+  color: "yellow"
+inputs: 
+  email:
+    description: "User's email"
+    required: True
+    default: ${{github.actor}}@localhost
+  name:
+    description: "User's name"
+    required: True
+    default: ${{github.actor}}
