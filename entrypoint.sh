@@ -9,7 +9,7 @@ python3 /usr/bin/feed.py
 
 git add -A && git commit -m "Update Feed"
 
-git push --set-up-upstream origin main
+git push --set-up-stream origin main
 
 
 echo "=================="
